@@ -13,5 +13,5 @@ print(path2)
 # 地址的拼接
 case_dir = os.path.join(path, "config.ini")
 print(case_dir)
-case_dir = os.path.join(path, "python_basic64.py")
-print(case_dir)
+# case_dir = os.path.join(path, "python_basic64.py")
+# print(case_dir)

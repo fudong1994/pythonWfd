@@ -1,1 +1,1 @@
-import login_and_regist
+import day10.login_and_regist

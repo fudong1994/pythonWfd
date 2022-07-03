@@ -4,7 +4,7 @@
 # #号为单行注释
 # Ctrl+Alt+l 会自动调整格式
 
-a = 100  # 声明一个变量a，并把值10赋值给a
+a = 10  # 声明一个变量a，并把值10赋值给a
 print(a)
 print(type(a))  # type() 用来查看变量的类型 <class 'int'> int代表整数类型
 b = 10.5

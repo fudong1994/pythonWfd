@@ -1,5 +1,5 @@
 from configparser import ConfigParser
-from python_basic64 import case_dir
+from day10.python_basic64 import case_dir
 
 
 # 创建解析类的实例对象

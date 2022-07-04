@@ -1,7 +1,6 @@
 from configparser import ConfigParser
 from day10.python_basic64 import case_dir
 
-
 # 创建解析类的实例对象
 cp = ConfigParser()
 
@@ -19,9 +18,8 @@ cp = ConfigParser()
 # print(p)
 # print(type(p))
 
-
 # 读取文件
 cp.read(case_dir, encoding="utf-8")  # 读取文件
 host = cp.get('mysql', 'host')  # 通过解析类的提供的get 方法 获取值  需要的入参是 section和option
 print(host)
-print(type(host)) # 解析类提供的get方法返回的是 str
+print(type(host))  # 解析类提供的get方法返回的是 str
